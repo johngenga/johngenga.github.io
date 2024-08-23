@@ -1,60 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>John Genga - Projects</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <header>
-        <div class="container">
-            <div id="branding">
-                <h1>John Genga</h1>
-                <h4>Supply Chain and Logistics</h4>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Me</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                </ul>
-            </nav>
+<header>
+    <div class="container">
+        <div id="branding">
+            <h1>John Genga</h1>
+            <h4>Supply Chain and Logistics</h4>
         </div>
-    </header>
-
-    <section class="container">
-        <h2>Projects and Work Samples</h2>
         <nav>
             <ul>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#work">Work Samples</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
             </ul>
         </nav>
-        <section id="projects">
-            <h2>Projects</h2>
-            <h3>Machine Learning forecasting and MRP tool</h3>
-            <p> This is a simple and user friendly tool developed as a WebApp for the purpose of
-                Materials Requirements Planning for any type of business with a single component
-                level of raw materials</p>
-        <section>
+    </div>
+</header>
 
-        <section id="work">
-            <h2>Work Samples</h2>
-            <h3>MRP and Production Schedule [Excel]</h3>
-            <p>These are excel based plans. The MRP integrates the short and long term horizon Demand plans,
+<section class="container">
+    <h2>Projects and Work Samples</h2>
+    <nav>
+        <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#work">Work Samples</a></li>
+        </ul>
+    </nav>
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <h3>Machine Learning Forecasting and MRP Tool</h3>
+        <p>This is a supply chain planning tool developed using Streamlit. It allows users to upload data in
+            .xlsx or .csv format, forecast sales, and manage inventory.</p>
+
+        <!-- Link to the app with an image preview -->
+        <a href="https://excel-python-powered-mrp-qsu239vtcjojtclmp97fkq.streamlit.app/" target="_blank" class="project-link">
+            <img src="\images\work_samples\StreamlitApp.png" alt="Streamlit App Preview" class="project-image">
+        </a>
+    </section>
+
+    <section id="work">
+        <h2>Work Samples</h2>
+        <h3>MRP and Production Schedule [Excel]</h3>
+        <p>These are excel based plans. The MRP integrates the short and long term horizon Demand plans,
             with the production plan and uses the Bill of materials to explode the product requirements into
             raw material requirements for multiple horizons and classes of material</p>
-            <p> Work sample as .xlsx.</p>
-            <menu>
-                <li><a href="work_samples/Materials Requirements Plan [MRP - template for process].xlsm" download>
-                    Work Sample 1 | Materials Requirements Plan [MRP - template for process]</a></li>
-                <li><a href="work_samples/Discreet Production Plan [Blow Plastics].xlsx" download>
-                    Work Sample 2 | Discreet Production Plan [Blow Plastics]</a></li>
-            </menu>
-        </section>
-        <section id="work-samples">
+        <p> Work sample as .xlsx.</p>
+        <menu>
+            <li><a href="work_samples/Materials Requirements Plan [MRP - template for process].xlsm" download>
+                Work Sample 1 | Materials Requirements Plan [MRP - template for process]</a></li>
+            <li><a href="work_samples/Discreet Production Plan [Blow Plastics].xlsx" download>
+                Work Sample 2 | Discreet Production Plan [Blow Plastics]</a></li>
+        </menu>
+    </section>
+        <section>
             <h3>MRP</h3>
             <div class="work-samples-grid">
                 <div class="work-sample">
@@ -78,10 +80,8 @@
                     <p>Inventory and capacity planning for Discreet Production in Plastics</p>
                 </div>
             </div>
-    </section>
+        </section>
 
-    <footer>
-        <p>John Genga &copy; 2024</p>
-    </footer>
-</body>
-</html>
+        <footer>
+            <p>John Genga &copy; 2024</p>
+        </footer>

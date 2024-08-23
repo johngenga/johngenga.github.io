@@ -1,5 +1,6 @@
+/* Base Styles */
 body {
-    font-family: 'Segoe UI',Century Gothic,sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Century Gothic, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
     margin: 0;
     padding: 0;
@@ -7,12 +8,48 @@ body {
     color: #333;
 }
 
+/* Container */
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
 
+/* Certificates Grid */
+.certificates-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns grid */
+    gap: 20px; /* Space between images */
+    margin-top: 20px;
+}
+
+.certificate-image {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.certificate-image:hover {
+    transform: scale(1.03); /* Slight zoom effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Header */
 header {
     background: #333;
     background-size: cover;
@@ -29,14 +66,9 @@ header a {
     font-size: 16px;
 }
 
-header ul {
-    padding: 0;
-    list-style: none;
-}
-
-header li {
-    display: inline;
-    padding: 0 20px 0 20px;
+header nav {
+    float: right;
+    margin-top: 10px;
 }
 
 header #branding {
@@ -48,54 +80,17 @@ header #branding h1 {
     font-size: 44px;
 }
 
-header nav {
-    float: right;
-    margin-top: 10px;
-}
-
-.bio, .work-experience, .skills, .publications, .contact, .projects, .writings {
-    background: #fff;
-    padding: 30px;
-    margin-bottom: 30px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    color: #333;
-    font-size: 28px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 10px;
-}
-
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    bottom: 0;
-    width: 100%;
-}
-
-footer p {
-    margin: 0;
-}
-
-section p {
-    font-size: 16px;
-    line-height: 1.8;
-}
-
-ul {
-    list-style-type: none;
+header ul {
     padding: 0;
+    list-style: none;
 }
 
-ul li {
-    margin-bottom: 10px;
+header li {
+    display: inline;
+    padding: 0 20px;
 }
 
+/* Links */
 a {
     color: #6c8f6b;
     text-decoration: none;
@@ -105,38 +100,49 @@ a:hover {
     text-decoration: underline;
 }
 
-.profile-photo-container {
-    display: flex;
-    align-items: center;
-    margin: 10px 0;
+/* Projects Section */
+.projects {
+    /* Optional: Add specific styles for the projects section */
 }
 
-.profile-photo {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border: none;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    margin-right: 20px;
+.project-image {
+    width: 100%;
+    max-width: 600px; /* Adjust based on your design */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.certificates-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columns grid */
-    gap: 20px; /* Space between images */
-    margin-top: 20px;
+.project-image:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
 }
-.certificate-image {
-    max-width: 100%; /* Ensure images are responsive */
-    height: auto; /* Maintain aspect ratio */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition on hover *
-    cursor: pointer; /* Change cursor to pointer on hover */
+
+/* Sections */
+.bio, .work-experience, .skills, .publications, .contact, .projects, .writings {
+    background: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.certificate-image:hover {
-    transform: scale(3); /* Enlarge the image on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+
+/* Text */
+h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
 }
+
+section p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Work Samples Grid */
 .work-samples-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
