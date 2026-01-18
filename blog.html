@@ -1,44 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>John Genga - Blog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | John Genga - Supply Chain Insights</title>
+    <meta name="description" content="Insights and articles on supply chain management, logistics, and operational excellence.">
     <link rel="stylesheet" href="styles.css">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'YOUR_TRACKING_ID');
-    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <div class="container">
+        <div class="container header-container">
             <div id="branding">
                 <h1>John Genga</h1>
-                <h4>Supply Chain and Logistics Professional</h4>
+                <h4>Supply Chain & Logistics Leader</h4>
             </div>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="about.html">About</a></li>
                     <li><a href="projects.html">Projects</a></li>
-                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section class="container">
-        <h2>Blog</h2>
-        <p>Welcome to my blog! Here, I share my insights and experiences on supply chain management, logistics, and other related topics.</p>
-        <!-- Add blog posts here -->
+    <!-- Page Title -->
+    <section class="hero">
+        <div class="container">
+            <h2>Supply Chain Insights</h2>
+            <p>Thoughts, experiences, and lessons from 18+ years in supply chain and logistics</p>
+        </div>
     </section>
 
+    <!-- Blog Intro -->
+    <section class="container">
+        <div class="card text-center">
+            <h3><i class="fas fa-pen-nib"></i> Welcome to My Blog</h3>
+            <p>Here I share practical insights, case studies, and reflections on supply chain management, logistics optimization, and operational excellence. Drawing from my experience across agriculture, manufacturing, and humanitarian sectors.</p>
+
+            <div class="skill-tags mt-2">
+                <span class="skill-tag">Supply Chain Strategy</span>
+                <span class="skill-tag">Logistics Optimization</span>
+                <span class="skill-tag">Technology Implementation</span>
+                <span class="skill-tag">Process Improvement</span>
+                <span class="skill-tag">Humanitarian Logistics</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts -->
+    <section class="container">
+        <h2><i class="fas fa-newspaper"></i> Latest Articles</h2>
+
+        <!-- Blog Post 1 -->
+        <div class="card">
+            <div class="blog-post">
+                <div class="blog-header">
+                    <span class="blog-date"><i class="far fa-calendar"></i> November 2024</span>
+                    <span class="blog-category">Supply Chain Strategy</span>
+                </div>
+
+                <h3>Implementing Effective KPIs in Agricultural Supply Chains</h3>
+                <p>Key performance indicators are crucial for monitoring and improving supply chain performance in agricultural operations. Based on my experience at Agventure Limited, I share insights on developing meaningful KPIs that drive both efficiency and service quality...</p>
+
+                <a href="#" class="btn btn-outline">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- Blog Post 2 -->
+        <div class="card">
+            <div class="blog-post">
+                <div class="blog-header">
+                    <span class="blog-date"><i class="far fa-calendar"></i> October 2024</span>
+                    <span class="blog-category">Technology</span>
+                </div>
+
+                <h3>From Excel to Streamlit: Building Supply Chain Tools with Python</h3>
+                <p>How I transitioned from complex Excel-based MRP systems to interactive web applications using Python and Streamlit. This post covers the benefits of modernizing supply chain tools and provides a practical guide to getting started...</p>
+
+                <a href="#" class="btn btn-outline">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- Blog Post 3 -->
+        <div class="card">
+            <div class="blog-post">
+                <div class="blog-header">
+                    <span class="blog-date"><i class="far fa-calendar"></i> September 2024</span>
+                    <span class="blog-category">Humanitarian Logistics</span>
+                </div>
+
+                <h3>Lessons from Humanitarian Supply Chain Management</h3>
+                <p>Working with One Acre Fund taught me valuable lessons about supply chain resilience, stakeholder coordination, and process standardization in challenging environments. This article shares key takeaways applicable to both humanitarian and commercial sectors...</p>
+
+                <a href="#" class="btn btn-outline">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- Blog Post 4 -->
+        <div class="card">
+            <div class="blog-post">
+                <div class="blog-header">
+                    <span class="blog-date"><i class="far fa-calendar"></i> August 2024</span>
+                    <span class="blog-category">ERP Implementation</span>
+                </div>
+
+                <h3>Successful ERP Implementation: A Change Management Perspective</h3>
+                <p>Based on my experience implementing SYSPRO 7 and SAGE X3 systems, this post explores the human side of technology adoption. Learn how to manage stakeholder expectations, provide effective training, and ensure sustainable system usage...</p>
+
+                <a href="#" class="btn btn-outline">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- Blog Post 5 -->
+        <div class="card">
+            <div class="blog-post">
+                <div class="blog-header">
+                    <span class="blog-date"><i class="far fa-calendar"></i> July 2024</span>
+                    <span class="blog-category">Career Development</span>
+                </div>
+
+                <h3>Transitioning from Horticulture to Supply Chain Management</h3>
+                <p>My unconventional career path from horticulture to supply chain leadership taught me that domain knowledge combined with technical skills creates unique value. This post discusses how diverse backgrounds can enhance supply chain careers...</p>
+
+                <a href="#" class="btn btn-outline">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="container">
+        <div class="card text-center">
+            <h3><i class="fas fa-envelope"></i> Stay Updated</h3>
+            <p>Subscribe to receive updates on new articles, projects, and insights</p>
+
+            <form class="newsletter-form" style="max-width: 500px; margin: 1.5rem auto;">
+                <div style="display: flex; gap: 0.5rem;">
+                    <input type="email" placeholder="Your email address" style="flex: 1; padding: 0.8rem; border: 1px solid #ddd; border-radius: var(--border-radius);">
+                    <button type="submit" class="btn">Subscribe</button>
+                </div>
+                <p style="font-size: 0.9rem; margin-top: 0.5rem; color: var(--medium-color);">No spam, unsubscribe anytime.</p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>John Genga &copy; 2024</p>
+        <div class="container">
+            <p>John Genga &copy; <span id="currentYear"></span> | Supply Chain & Logistics Professional</p>
+            <div class="contact-info">
+                <a href="mailto:john.genga@gmail.com">Email</a>
+                <a href="tel:+254718215105">Phone</a>
+                <a href="https://linkedin.com/in/john-genga" target="_blank">LinkedIn</a>
+                <a href="https://johngenga.github.io/" target="_blank">Website</a>
+            </div>
+        </div>
     </footer>
+
+    <script>
+        // Update copyright year
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Simple newsletter form handler
+        document.querySelector('.newsletter-form')?.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = this.querySelector('input[type="email"]').value;
+            if(email) {
+                alert('Thank you for subscribing! You\'ll receive updates from John Genga.');
+                this.querySelector('input[type="email"]').value = '';
+            }
+        });
+    </script>
 </body>
 </html>

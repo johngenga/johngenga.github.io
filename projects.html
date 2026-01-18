@@ -1,113 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>John Genga - Projects</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | John Genga - Supply Chain Solutions</title>
+    <meta name="description" content="Portfolio of supply chain projects, tools, and work samples by John Genga.">
     <link rel="stylesheet" href="styles.css">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'YOUR_TRACKING_ID');
-    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
-<header>
-    <div class="container">
-        <div id="branding">
-            <h1>John Genga</h1>
-            <h4>Supply Chain and Logistics</h4>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div id="branding">
+                <h1>John Genga</h1>
+                <h4>Supply Chain & Logistics Leader</h4>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="blog.html">Blog</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+    </header>
 
-<section class="container">
-    <h2>GitHub Spaces</h2>
-    <p>Explore my projects and contributions on GitHub:</p>
-    <a href="https://github.com/johngenga" target="_blank" class="github-link">
-        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" style="width:30px; height:30px;">
-        My GitHub Profile: github.com/johngenga
-    </a>
-</section>
-
-<section class="container">
-    <h2>Projects and Work Samples</h2>
-    <nav>
-        <ul>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#work">Work Samples</a></li>
-        </ul>
-    </nav>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <h2>Projects</h2>
-        <h3>Machine Learning Forecasting and MRP Tool</h3>
-        <p>This is a supply chain planning tool developed using Streamlit. It allows users to upload data in
-            .xlsx or .csv format, forecast sales, and manage inventory.</p>
-
-        <!-- Link to the app with an image preview -->
-        <a href="https://excel-python-powered-mrp.streamlit.app/" target="_blank" class="project-link">
-            <img src="\images\work_samples\StreamlitApp.png" alt="Streamlit App Preview" class="project-image">
-        </a>
+    <!-- Page Title -->
+    <section class="hero">
+        <div class="container">
+            <h2>Projects & Solutions</h2>
+            <p>Practical applications of supply chain technology, analytics, and process optimization</p>
+        </div>
     </section>
 
-    <!-- Work Samples Section -->
-    <section id="work">
-        <h2>Work Samples</h2>
-        <h3>MRP and Production Schedule [Excel]</h3>
-        <p>These are excel-based plans. The MRP integrates the short and long-term horizon demand plans
-            with the production plan and uses the Bill of Materials to explode product requirements into
-            raw material requirements for multiple horizons and classes of material.</p>
-        <p> Work sample as .xlsx.</p>
-        <menu>
-            <li><a href="work_samples/Materials Requirements Plan [MRP - template for process].xlsm" download>
-                Work Sample 1 | Materials Requirements Plan [MRP - template for process]</a></li>
-            <li><a href="work_samples/Discreet Production Plan [Blow Plastics].xlsx" download>
-                Work Sample 2 | Discreet Production Plan [Blow Plastics]</a></li>
-        </menu>
+    <!-- GitHub Link -->
+    <section class="container">
+        <div class="card text-center">
+            <h3><i class="fab fa-github"></i> GitHub Portfolio</h3>
+            <p>Explore my code repositories, data analysis projects, and supply chain tools</p>
+            <a href="https://github.com/johngenga" target="_blank" class="github-link">
+                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo">
+                github.com/johngenga
+            </a>
+        </div>
     </section>
 
-    <section>
-        <h3>MRP</h3>
+    <!-- Featured Project -->
+    <section class="container">
+        <h2><i class="fas fa-star"></i> Featured Project</h2>
+
+        <div class="card">
+            <div class="project-card">
+                <img src="images/work_samples/StreamlitApp.png" alt="Machine Learning Forecasting and MRP Tool" class="project-image">
+                <div class="project-content">
+                    <h3>Machine Learning Forecasting & MRP Tool</h3>
+                    <p>A comprehensive supply chain planning application built with Streamlit that integrates machine learning forecasting with Material Requirements Planning (MRP) functionality.</p>
+
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>Upload and process Excel/CSV data files</li>
+                        <li>Machine learning-based sales forecasting</li>
+                        <li>Automated MRP calculations</li>
+                        <li>Inventory optimization recommendations</li>
+                        <li>Interactive dashboards and visualizations</li>
+                    </ul>
+
+                    <div class="project-links">
+                        <a href="https://excel-python-powered-mrp.streamlit.app/" target="_blank" class="btn">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="https://github.com/johngenga" target="_blank" class="btn btn-outline">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Samples -->
+    <section class="container">
+        <h2><i class="fas fa-file-excel"></i> Excel-Based Solutions</h2>
+        <p>Advanced spreadsheet tools developed for practical supply chain applications</p>
+
+        <div class="work-samples-grid">
+            <!-- MRP Template -->
+            <div class="work-sample">
+                <div class="card">
+                    <img src="work_samples/work_sample_images/MRP_Dash.png" alt="MRP Dashboard">
+                    <h4>Materials Requirements Planning (MRP) Template</h4>
+                    <p>Comprehensive MRP system integrating demand planning with production scheduling and raw material requirements.</p>
+
+                    <div class="skill-tags mt-1">
+                        <span class="skill-tag">Excel</span>
+                        <span class="skill-tag">MRP</span>
+                        <span class="skill-tag">Dashboard</span>
+                    </div>
+
+                    <a href="work_samples/Materials Requirements Plan [MRP - template for process].xlsm" download class="btn mt-1">
+                        <i class="fas fa-download"></i> Download Template
+                    </a>
+                </div>
+            </div>
+
+            <!-- Production Schedule -->
+            <div class="work-sample">
+                <div class="card">
+                    <img src="work_samples/work_sample_images/Blow_Schedule.png" alt="Production Schedule">
+                    <h4>Discrete Production Planning System</h4>
+                    <p>Production scheduling and capacity planning tool for discrete manufacturing (blow plastics).</p>
+
+                    <div class="skill-tags mt-1">
+                        <span class="skill-tag">Excel</span>
+                        <span class="skill-tag">Production Planning</span>
+                        <span class="skill-tag">Capacity Planning</span>
+                    </div>
+
+                    <a href="work_samples/Discreet Production Plan [Blow Plastics].xlsx" download class="btn mt-1">
+                        <i class="fas fa-download"></i> Download Sample
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Work Samples -->
+    <section class="container">
+        <h2><i class="fas fa-images"></i> Additional Work Samples</h2>
+
         <div class="work-samples-grid">
             <div class="work-sample">
-                <img src="work_samples\work_sample_images\MRP_Menu.png" alt="MRP Menu">
-                <p>Materials Requirement Planning Tool Main Menu</p>
+                <div class="card">
+                    <img src="work_samples/work_sample_images/MRP_Menu.png" alt="MRP Menu Interface">
+                    <h4>MRP System Interface</h4>
+                    <p>User-friendly interface for the MRP tool with navigation and data input sections.</p>
+                </div>
             </div>
+
             <div class="work-sample">
-                <img src="work_samples\work_sample_images\MRP_Dash.png" alt="MRP Dashboard">
-                <p>MRP Dashboard</p>
+                <div class="card">
+                    <img src="work_samples/work_sample_images/Machine Capacity and Routing.png" alt="Capacity Planning">
+                    <h4>Machine Capacity & Routing</h4>
+                    <p>Capacity planning tool for manufacturing operations with routing optimization.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section>
-        <h3>Production Schedule for Blow Plastic Manufacturing</h3>
-        <div class="work-samples-grid">
-            <div class="work-sample">
-                <img src="work_samples\work_sample_images\Blow_Schedule.png" alt="Plastic Production Schedule">
-                <p>Discreet Production Schedule for Discreet Production in Plastics</p>
+    <!-- Process Improvement Projects -->
+    <section class="container">
+        <h2><i class="fas fa-chart-line"></i> Process Improvement Projects</h2>
+
+        <div class="card">
+            <div class="experience-item">
+                <h3>WMS Implementation Project</h3>
+                <p class="experience-date">One Acre Fund | 2021-2023</p>
+                <p>Led the implementation of a Warehouse Management System across 21 locations, resulting in:</p>
+                <ul>
+                    <li>30% increase in inventory accuracy</li>
+                    <li>Reduced shrinkage and stock discrepancies</li>
+                    <li>Standardized processes across all locations</li>
+                    <li>20% reduction in turnaround times</li>
+                </ul>
             </div>
-            <div class="work-sample">
-                <img src="work_samples\work_sample_images\Machine Capacity and Routing.png" alt="Blow Capacity and Schedule">
-                <p>Inventory and Capacity Planning for Discreet Production in Plastics</p>
+
+            <div class="experience-item">
+                <h3>ERP System Implementation</h3>
+                <p class="experience-date">General Plastics | 2016-2018</p>
+                <p>Spearheaded SYSPRO 7 ERP implementation focusing on manufacturing and inventory modules:</p>
+                <ul>
+                    <li>30% reduction in planning cycle time</li>
+                    <li>Improved production planning visibility</li>
+                    <li>Enhanced data accuracy and reporting</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>Logistics Optimization</h3>
+                <p class="experience-date">One Acre Fund | 2019-2020</p>
+                <p>Redesigned transport and distribution network:</p>
+                <ul>
+                    <li>25% reduction in delivery costs</li>
+                    <li>Improved route planning and scheduling</li>
+                    <li>Enhanced 3PL partnership management</li>
+                    <li>18% reduction in damages and losses</li>
+                </ul>
             </div>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
-        <p>John Genga &copy; 2024</p>
+        <div class="container">
+            <p>John Genga &copy; <span id="currentYear"></span> | Supply Chain & Logistics Professional</p>
+            <div class="contact-info">
+                <a href="mailto:john.genga@gmail.com">Email</a>
+                <a href="tel:+254718215105">Phone</a>
+                <a href="https://linkedin.com/in/john-genga" target="_blank">LinkedIn</a>
+                <a href="https://johngenga.github.io/" target="_blank">Website</a>
+            </div>
+        </div>
     </footer>
-</section>
+
+    <script>
+        // Update copyright year
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
