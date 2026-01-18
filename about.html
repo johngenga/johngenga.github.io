@@ -1,241 +1,463 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>John Genga - About Me</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | John Genga - Supply Chain & Analytics Strategist</title>
+    <meta name="description" content="18+ years transforming global supply chains. Explore the career journey, skills, and MIT-backed education of John Genga.">
     <link rel="stylesheet" href="styles.css">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'YOUR_TRACKING_ID');
-    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <div class="container">
+        <div class="container header-container">
             <div id="branding">
                 <h1>John Genga</h1>
-                <h4>Supply Chain and Logistics Professional</h4>
+                <h4>Supply Chain & Analytics Strategist</h4>
             </div>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
                     <li><a href="projects.html">Projects</a></li>
-                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="insights.html">Insights</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
+    <!-- Enhanced Hero -->
+    <section class="hero about-hero">
+        <div class="container">
+            <h2>A Career Forged in Global Supply Chain Transformation</h2>
+            <p>From the packhouses of Kenyan horticulture to a global planning desk in London — 18 years of optimizing complexity, pioneering technology, and leading with data.</p>
+        </div>
+    </section>
+
+    <!-- Quick Navigation -->
     <section class="container">
-        <h2>About Me</h2>
-        <nav>
-            <ul>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#education">Education and Training</a></li>
-                <li><a href="#skills">Skills and Certificates</a></li>
-            </ul>
-        </nav>
+        <div class="card text-center sticky-nav">
+            <nav class="quick-nav">
+                <a href="#experience" class="btn btn-outline"><i class="fas fa-briefcase"></i> Experience</a>
+                <a href="#impact" class="btn btn-outline"><i class="fas fa-chart-simple"></i> Key Impact</a>
+                <a href="#education" class="btn btn-outline"><i class="fas fa-graduation-cap"></i> Education</a>
+                <a href="#skills" class="btn btn-outline"><i class="fas fa-toolbox"></i> Tech Stack</a>
+                <a href="#certificates" class="btn btn-outline"><i class="fas fa-certificate"></i> Certificates</a>
+            </nav>
+        </div>
+    </section>
 
-        <section id="resume">
-            <h2>Resume</h2>
-            <h3>Core Competencies</h3>
-            <ul>
-                <li>Project Management, Cross-functional Collaboration and Coordination:
-                    Proven ability to work effectively with cross-functional teams,
-                    stakeholders, and partners to achieve complex project objectives.</li>
-                <li>Supplier Relationship management: Skilled in developing and managing supplier
-                    contracts and relationships including performance monitoring of negotiated SLAs and KPIs.</li>
-                <li>Process Improvement and Operational Efficiency: Expertise in optimizing supply chain and
-                    logistics processes to reduce costs and improve efficiency.</li>
-                <li>Capacity Building: Strong background in training and mentoring staff on best
-                    practices in project management and grant compliance</li>
-                <li>Data Analysis and Reporting: Proficient in Python programming and Machine Learning,
-                    analyzing data to inform decision-making and producing high-quality analytical reports.</li>
-            </ul>
+    <!-- Professional Experience -->
+    <section class="container" id="experience">
+        <h2><i class="fas fa-briefcase"></i> Professional Experience</h2>
 
-        </section>
-        <section>
-            <h3>Professional Experience</h3>
-            <div>
-                <h4><a>Independent Supply Chain Consultant | Freelance Contractor</a></h4>
-                <h5>Kisumu,Kenya | JAN 2024 - Present</h5>
+        <!-- Current Role -->
+        <div class="card current-role">
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <h3>Logistics Manager</h3>
+                        <h4>Agventure Limited</h4>
+                    </div>
+                    <span class="experience-date"><i class="far fa-calendar"></i> Nakuru & Timau, Kenya | Nov 2024 – Present</span>
+                </div>
+                <p class="role-summary">Leading end-to-end supply chain strategy for a farmer-owned agribusiness spanning grain trading, certified seed supply, and Canola oil manufacturing (Pure Mountain brand).</p>
                 <ul>
-                    <li>Taking time to refresh and upskill, focusing on emerging trends in supply chain management and logistics,
-                        as well as enhancing my expertise in Python programming and machine learning</li>
-                    <li>Working privately as a freelance contractor, I provide expertise in planning and supply chain operations</li>
+                    <li>Manage trading and delivery of agricultural produce to millers and exporters, including production forecasting and regulatory reporting</li>
+                    <li>Direct transport planning via third-party transporters, contract management, and performance oversight</li>
+                    <li>Oversee production planning and MRP for Canola and sunflower oil manufacturing operations</li>
+                    <li>Leading rollout of order processing and inventory management apps using Google AppSheet</li>
+                </ul>
+                <div class="accomplishment-badges mt-2">
+                    <span class="accomplishment-badge"><i class="fas fa-trophy"></i> Reduced reporting time by 50%</span>
+                    <span class="accomplishment-badge"><i class="fas fa-trophy"></i> Cut P2P processing to 24 hours</span>
+                    <span class="accomplishment-badge"><i class="fas fa-trophy"></i> Discontinued 15% of slow-moving SKUs</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- One Acre Fund -->
+        <div class="card">
+            <h3 class="company-heading"><i class="fas fa-seedling"></i> One Acre Fund (Tupande) | <span>2019 – 2023</span></h3>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <h3>Logistics Program Associate</h3>
+                    </div>
+                    <span class="experience-date">Jan 2021 – Dec 2023</span>
+                </div>
+                <p class="role-summary">Managed inventory for ~400 SKUs across 35 counties, overseeing 21 warehouses with $100M in inventory and a team of 65 staff.</p>
+                <ul>
+                    <li>Led WMS implementation from requirements through rollout, increasing inventory accuracy by <strong>30%</strong> with real-time visibility</li>
+                    <li>Standardized logistics processes across teams, reducing turnaround times by <strong>20%</strong></li>
+                    <li>Coordinated multi-county program delivery for 450,000+ farmers via 3,000 field officers and 120+ retail shops</li>
+                    <li>Built and managed third-party transporter relationships and a fleet of 15 hired trucks with route optimization</li>
                 </ul>
             </div>
-            <div>
-                <h4><a>Logistics Program Associate | One Acre Fund</a></h4>
-                <h5>Kakamega (Remote),Kenya | JAN 2021 - DEC 2023</h5>
-                <menu>
-                    <li>Implemented and supervised the rollout of an advanced Warehouse Management System (WMS), starting from
-                        MVP description to training and deployment</li>
-                    <li>Developed and implemented comprehensive Procurement and Logistics Policies,
-                        Standard Operating Procedures (SOPs), and Work Instructions</li>
-                    <li>Spearheaded the development of on-line-real-time inventory
-                        tracking that reduced annual inventory shrinkage from 0.15% to 0.03%</li>
-                    <li>Managed and mentored a team of 3 middle management specialists and 50 junior staff</li>
-                    <li>Oversaw project kick-offs, developed work plans, identified project risks,
-                        and created stakeholder engagement plans</li>
-                </menu>
-            </div>
-            <div>
-                <h4><a>Logistics Deliveries Specialist  | One Acre Fund</a></h4>
-                <h5>Kakamega,Kenya | JAN 2019 - DEC 2020</h5>
-                <menu>
-                    <li>Provided strategic direction and executed comprehensive planning for the delivery of agricultural inputs to farmers</li>
-                    <li>Developed fleet management, route optimization, and tracking initiatives, reducing delivery costs by 25%.</li>
-                    <li>Developed and implemented warehouse capacity planning models and inventory control systems,
-                        devising and implementing efficient SOPs to mitigate inventory loss</li>
-                    <li>Cultivated collaborative relationships with third-party transporters and security service
-                        providers to build flexibility and agility for emergency responsiveness</li>
-                    <li>Implemented SOPs to mitigate inventory loss due to damages and ensure improved quality of inbound inventory</li>
-                </menu>
-            </div>
-            <div>
-                <h4><a>Master Planner  | General Plastics (K) Ltd</a></h4>
-                <h5>Nairobi,Kenya | OCT 2016 - DEC 2018</h5>
-                <menu>
-                    <li>Revolutionized the organization’s supply chain operations, focusing on Sales and Operations Planning (S&OP), Material
-                        Requirements Planning (MRP), Demand Planning, Production Planning, Scheduling, and Distribution</li>
-                    <li>Led initiatives to reduce inventory carrying costs by 45%</li>
-                    <li>Achieved a 50% reduction in finished product inventory within six months</li>
-                    <li>Collaborated closely with cross-functional teams to ensure seamless production</li>
-                    <li>Conducted comprehensive analysis of production scheduling processes, reducing lead times by 30%</li>
-                </menu>
-            </div>
-            <div>
-                <h4><a>Material and Production Planner | James Finlay (K) Ltd</a></h4>
-                <h5>Nairobi,Kenya | OCT 2016 - DEC 2018</h5>
-                <menu>
-                    <li>Orchestrated end-to-end supply chain operations, aligning production with market demand using S&OP and MRP</li>
-                    <li>Introduced and maintained a master production schedule, optimizing overall equipment effectiveness</li>
-                    <li>Implemented MRP strategies to maximize material availability and minimize inventory.</li>
-                    <li>Developed tracking systems for mass balance of raw materials to identify and mitigate losses</li>
-                    <li>Led implementation of SAGE X3 ERP system's manufacturing and inventory modules.</li>
-                </menu>
-            </div>
-            <div>
-                <h4><a>Global Supply Planner | Finlay Extracts and Ingredients</a></h4>
-                <h5>London, United Kingdom | OCT 2008 - OCT 2010</h5>
-                <menu>
-                    <li>Developed demand and supply balancing, production, storage, and distribution across
-                        Europe, Asia, and Kenya</li>
-                    <li>Introduced and implemented global Supply and Demand planning techniques.</li>
-                    <li>Analyzed data and reports to identify waste, applying KAIZEN principles for lean processes</li>
-                    <li>Utilized forecasting models to predict demand, optimize equipment effectiveness, and reduce lead times.</li>
-                    <li>Initiated and led the first S&OP process, collaborating with regional teams, sales, and stakeholders</li>
-                </menu>
-            </div>
-            <div>
-                <h4><a>Operations Administrator | Homegrown Kenya Limited</a></h4>
-                <h5>Nanyuki, Kenya | JUN 2005 - OCT 2008</h5>
-                <menu>
-                    <li>Led planning and coordination of pack houses and flower logistics. Managed daily supply chain coordination operations from farm to airport,
-                        including order processing, packing, collection, and transport</li>
-                </menu>
-            </div>
-        </section>
 
-        <section id="education">
-            <h2>Education and Training</h2>
-            <p>Here are a cross-section of certificates that are relevant to my chosen career path</p>
-            <h3>Education</h3>
-            <ol>
-                <li>Massachusetts Institute of Technology - Micro Masters in Supply Chain Management - [2020-2022]</li>
-                The MicroMasters program leads to a credential comprising five courses and the Comprehensive Final Exam,
-                is equivalent to one semester's graduate-level coursework at MIT.
-                <li>JKUAT - Bachelors of Science in Horticulture - [1996 - 2000]</li>
-                This is an undergraduate degree program from Jomo Kenyatta University of Agriculture and Technology
-                in Kenya majoring in Horticultural Science
-                <li>KASNEB - Certified Public Accountant Part 1 Certificate - [2003 - 2004]</li>
-                This is the first part of 3 leading up to full recognition as a Certified Public Accountant of Kenya,
-                Part 1 is made of 2 sections and 6 courses
-            </ol>
-        </section>
-
-        <section id="skills">
-            <h3>Certificates</h3>
-            <p>These are the certificates that I deem to be most fitting and relevant to my work
-                experience and professions as I have put them to practical use and learned from them extensively</p>
-
-            <ol>
-                <div class="certificates-grid">
-                    <h5>MIT-Supply Chain Comprehensive Exam</h5>
-                    <img src="certificates/MIT Certificates/CFX.png"
-                         alt="CFX" class="certificate-image">
-
-                    <h5>MIT-Supply Chain Analytics</h5>
-                    <img src="certificates/MIT Certificates/SC0x.png"
-                         alt="SC0x" class="certificate-image">
-
-                    <h5>MIT-Supply Chain Fundamentals</h5>
-                    <img src="certificates/MIT Certificates/SC1x.png"
-                         alt="SC1x" class="certificate-image">
-
-                    <h5>MIT-Supply Chain Design</h5>
-                    <img src="certificates/MIT Certificates/SC2x.png"
-                         alt="SC2x" class="certificate-image">
-
-                    <h5>MIT-Supply Chain Dynamics</h5>
-                    <img src="certificates/MIT Certificates/SC3x.png"
-                         alt="SC3x" class="certificate-image">
-
-                    <h5>MIT-Supply Chain Technology and Systems</h5>
-                    <img src="certificates/MIT Certificates/SC4x.png"
-                         alt="SC4x" class="certificate-image">
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <h3>Logistics Deliveries Specialist</h3>
+                    </div>
+                    <span class="experience-date">Jan 2019 – Dec 2020</span>
                 </div>
-            </ol>
-        </section>
+                <p class="role-summary">Led last-mile distribution and fleet operations across rural Kenya, managing 5 regional supervisors and 63 warehouse staff.</p>
+                <ul>
+                    <li>Reduced fleet operational costs by <strong>25%</strong> by introducing LOGIX route optimization system</li>
+                    <li>Reduced inventory shrinkage variance from <strong>0.3% to 0.01%</strong></li>
+                    <li>Enforced OSHA, KEBS, KEPHIS, and PCLB regulatory requirements across all operations</li>
+                    <li>Promoted to senior management based on exemplary performance</li>
+                </ul>
+            </div>
+        </div>
 
-            <h3>Technical Skills</h3>
-            <p>I am a strong believer in continuous learning and improvement and I enjoy acquiring
-                new skills. Over the years, I have developed a diverse set of technical skills. These include: </p>
-            <menu>
-                <li>Advanced Spreadsheet Skills:
-                    Proficient in MS Excel and Google Sheets, including scripting and Visual Basic.</li>
-                <li>ERP Systems Experience:
-                    Experienced with SAP Business One and Syspro 7 ERP systems.</li>
-                <li>Warehouse Management Systems: Advanced user experience with Cobi
-                    Warehouse Management System for SAP Business One</li>
-                <li>Python Programming and Machine learning libraries: I am continually
-                learning and improving my coding skills for practical Supply Chain use</li>
-                <li>Databases: Proficient in MS Power Bi and MySQL</li>
-            </menu>
-            <ol>
-                <div class="certificates-grid">
-                    <h5>Kaggle - Python</h5>
-                    <img src="\certificates\Python & Machine Learning\John Genga - Python.png"
-                         alt="kaggle Python certificate" class="certificate-image">
+        <!-- Manufacturing & Global Experience -->
+        <div class="card">
+            <h3 class="company-heading"><i class="fas fa-industry"></i> Manufacturing & Global Planning | <span>2005 – 2018</span></h3>
 
-                    <h5>Kaggle - Pandas</h5>
-                    <img src="\certificates\Python & Machine Learning\John Genga - Pandas.png"
-                         alt="Kaggle Pandas Certificate" class="certificate-image">
-
-                    <h5>Kaggle - Intro to Machine Learning</h5>
-                    <img src="\certificates\Python & Machine Learning\John Genga - Intro to Machine Learning.png"
-                         alt="Kaggle Intro to Machine Learning" class="certificate-image">
-
-                    <h5>Kaggle - Intermediate Machine Learning</h5>
-                    <img src="\certificates\Python & Machine Learning\John Genga - Intermediate Machine Learning.png"
-                         alt="Kaggle Intermediate Machine Learning" class="certificate-image">
-
-                    <h5>Kaggle - Time Series</h5>
-                    <img src="\certificates\Python & Machine Learning\John Genga - Time Series.png"
-                         alt="kaggle Time Series Certificate" class="certificate-image">
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <h3>Master Planner (S&OP & MRP)</h3>
+                        <h4>General Plastics Kenya Limited, Nairobi</h4>
+                    </div>
+                    <span class="experience-date">Oct 2016 – Dec 2018</span>
                 </div>
-            </ol>
-        </section>
+                <p class="role-summary">Led end-to-end supply chain planning for a leading rigid plastic packaging manufacturer with 900+ employees and 3,000+ SKUs.</p>
+                <ul>
+                    <li>Reduced inventory holding by <strong>45%</strong> within 18 months using ABC analysis and demand-driven planning</li>
+                    <li>Improved inventory turnover by <strong>20%</strong> year-over-year</li>
+                    <li>Led SYSPRO 7 ERP implementation, improving production planning visibility and cutting planning cycle time by <strong>30%</strong></li>
+                    <li>Deployed demand-driven forecasting methods that improved planning accuracy from 65% to 85%</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <h3>Materials & Production Planner</h3>
+                        <h4>Finlays Tea Extracts Kenya (FTEK), Kericho</h4>
+                    </div>
+                    <span class="experience-date">Oct 2010 – Dec 2016</span>
+                </div>
+                <p class="role-summary">Managed integrated production and materials planning for a 3-line tea extracts plant serving global beverage brands.</p>
+                <ul>
+                    <li>Ensured <strong>97%</strong> inventory availability for raw materials</li>
+                    <li>Achieved <strong>95%</strong> master schedule adherence (monthly average)</li>
+                    <li>Led SAGE X3 ERP rollout for inventory management: defined requirements, led UAT, trained end-users</li>
+                    <li>Managed fresh tea leaf deliveries from farm to factory, coordinating harvest volumes and transport logistics</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <h3>Global Supply Planner</h3>
+                        <h4>Finlays Extracts & Ingredients, London, UK</h4>
+                    </div>
+                    <span class="experience-date">Oct 2008 – Nov 2010</span>
+                </div>
+                <p class="role-summary">Transformed a multi-factory network across 3 continents into a cohesive global supply engine.</p>
+                <ul>
+                    <li>Led monthly Supply Review as part of S&OP, aligning demand with capacity at plants in China, Chile, and Kenya</li>
+                    <li>Served as MS Dynamics ERP supply chain super-user: designed, configured, and validated the supply chain module</li>
+                    <li>Managed end-to-end customer fulfillment including demand forecasting and international shipping coordination</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <h3>Operations Desk Administrator</h3>
+                        <h4>Homegrown Kenya Limited (Flamingo Horticulture), Nanyuki</h4>
+                    </div>
+                    <span class="experience-date">Jan 2005 – Oct 2008</span>
+                </div>
+                <p class="role-summary">Coordinated packhouse-to-airport logistics for Kenya's largest horticultural exporter to Europe.</p>
+                <ul>
+                    <li>Achieved record-breaking sales volumes from the Mt Kenya region in the 2005 season</li>
+                    <li>Managed flower harvest forecasts, order processing, and cold-chain transportation coordination</li>
+                </ul>
+            </div>
+        </div>
     </section>
+
+    <!-- Key Impact Section -->
+    <section class="container" id="impact">
+        <h2><i class="fas fa-chart-simple"></i> Career Impact at a Glance</h2>
+        <div class="impact-grid">
+            <div class="impact-card card">
+                <i class="fas fa-percent fa-2x"></i>
+                <h3>45%</h3>
+                <p>Inventory holding reduction achieved through ABC analysis and demand-driven planning</p>
+            </div>
+            <div class="impact-card card">
+                <i class="fas fa-truck-fast fa-2x"></i>
+                <h3>25%</h3>
+                <p>Reduction in fleet and delivery costs through route optimization and 3PL partnerships</p>
+            </div>
+            <div class="impact-card card">
+                <i class="fas fa-boxes-stacked fa-2x"></i>
+                <h3>30%</h3>
+                <p>Increase in inventory accuracy after leading WMS implementation across 21 locations</p>
+            </div>
+            <div class="impact-card card">
+                <i class="fas fa-globe-africa fa-2x"></i>
+                <h3>3 Continents</h3>
+                <p>Supply chains managed across Africa, Europe, and Asia for global organizations</p>
+            </div>
+            <div class="impact-card card">
+                <i class="fas fa-microchip fa-2x"></i>
+                <h3>4 ERPs</h3>
+                <p>Led or co-led rollout of SAGE X3, SYSPRO 7, MS Dynamics, and Cobi WMS</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Credentials -->
+    <section class="container" id="education">
+        <h2><i class="fas fa-graduation-cap"></i> Education & Credentials</h2>
+
+        <div class="card">
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <h3>MicroMasters in Supply Chain Management</h3>
+                        <h4>Massachusetts Institute of Technology (MIT)</h4>
+                    </div>
+                    <span class="experience-date">2020 – 2022</span>
+                </div>
+                <p>Graduate-level program covering supply chain analytics, design, dynamics, technology, and fundamentals. Earned certificates in all five courses plus the comprehensive final exam.</p>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <h3>B.Sc. Horticulture</h3>
+                        <h4>Jomo Kenyatta University of Agriculture & Technology</h4>
+                    </div>
+                    <span class="experience-date">1996 – 2000</span>
+                </div>
+                <p>Undergraduate degree bridging agricultural science and supply chain — a foundation that has proved invaluable across agribusiness roles throughout my career.</p>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <h3>CPA Part 1</h3>
+                        <h4>Kenya Accountants and Secretaries National Examination Board (KASNEB)</h4>
+                    </div>
+                    <span class="experience-date">2003 – 2004</span>
+                </div>
+                <p>Solidified financial acumen essential for cost-effective supply chain management and procurement decision-making.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Toolkit -->
+    <section class="container" id="skills">
+        <h2><i class="fas fa-toolbox"></i> Technical Toolkit</h2>
+
+        <div class="skills-grid">
+            <div class="card skill-category">
+                <h4><i class="fas fa-chart-pie"></i> Data & Analytics</h4>
+                <div class="skill-tags">
+                    <span class="skill-tag">Power BI</span>
+                    <span class="skill-tag">SQL (MySQL)</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Advanced Excel</span>
+                    <span class="skill-tag">Streamlit</span>
+                    <span class="skill-tag">Google AppSheet</span>
+                </div>
+            </div>
+
+            <div class="card skill-category">
+                <h4><i class="fas fa-server"></i> ERP & Systems</h4>
+                <div class="skill-tags">
+                    <span class="skill-tag">SAP Business One</span>
+                    <span class="skill-tag">SYSPRO 7</span>
+                    <span class="skill-tag">SAGE X3</span>
+                    <span class="skill-tag">MS Dynamics</span>
+                    <span class="skill-tag">Cobi WMS</span>
+                    <span class="skill-tag">LOGIX</span>
+                </div>
+            </div>
+
+            <div class="card skill-category">
+                <h4><i class="fas fa-clipboard-check"></i> Planning & Execution</h4>
+                <div class="skill-tags">
+                    <span class="skill-tag">S&OP / MRP</span>
+                    <span class="skill-tag">Demand Forecasting</span>
+                    <span class="skill-tag">Inventory Optimization</span>
+                    <span class="skill-tag">Route Planning</span>
+                    <span class="skill-tag">Capacity Planning</span>
+                    <span class="skill-tag">ABC Analysis</span>
+                </div>
+            </div>
+
+            <div class="card skill-category">
+                <h4><i class="fas fa-shield-halved"></i> Compliance & Governance</h4>
+                <div class="skill-tags">
+                    <span class="skill-tag">KRA / EAC Customs</span>
+                    <span class="skill-tag">KEBS Standards</span>
+                    <span class="skill-tag">OSHA</span>
+                    <span class="skill-tag">KEPHIS / PCLB</span>
+                    <span class="skill-tag">NEMA</span>
+                    <span class="skill-tag">SOP Development</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MIT Certificates -->
+    <section class="container" id="certificates">
+        <h2><i class="fas fa-certificate"></i> MIT MicroMasters Certifications</h2>
+        <p class="text-center mb-2">A rigorous graduate-level program from the world's #1 ranked supply chain university.</p>
+
+        <div class="certificates-grid">
+            <div class="certificate-item">
+                <img src="certificates/MIT Certificates/CFX.png" alt="MIT Supply Chain Comprehensive Exam" class="certificate-image">
+                <div class="certificate-info">
+                    <h5>Comprehensive Exam</h5>
+                    <p>Capstone final assessment</p>
+                </div>
+            </div>
+            <div class="certificate-item">
+                <img src="certificates/MIT Certificates/SC0x.png" alt="MIT Supply Chain Analytics" class="certificate-image">
+                <div class="certificate-info">
+                    <h5>Supply Chain Analytics</h5>
+                    <p>Data-driven decision making</p>
+                </div>
+            </div>
+            <div class="certificate-item">
+                <img src="certificates/MIT Certificates/SC1x.png" alt="MIT Supply Chain Fundamentals" class="certificate-image">
+                <div class="certificate-info">
+                    <h5>Fundamentals</h5>
+                    <p>Core principles & methodologies</p>
+                </div>
+            </div>
+            <div class="certificate-item">
+                <img src="certificates/MIT Certificates/SC2x.png" alt="MIT Supply Chain Design" class="certificate-image">
+                <div class="certificate-info">
+                    <h5>Supply Chain Design</h5>
+                    <p>Network design & optimization</p>
+                </div>
+            </div>
+            <div class="certificate-item">
+                <img src="certificates/MIT Certificates/SC3x.png" alt="MIT Supply Chain Dynamics" class="certificate-image">
+                <div class="certificate-info">
+                    <h5>Supply Chain Dynamics</h5>
+                    <p>System dynamics & risk management</p>
+                </div>
+            </div>
+            <div class="certificate-item">
+                <img src="certificates/MIT Certificates/SC4x.png" alt="MIT Supply Chain Technology" class="certificate-image">
+                <div class="certificate-info">
+                    <h5>Supply Chain Technology</h5>
+                    <p>Systems & technology applications</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Science Certificates -->
+    <section class="container">
+        <h2><i class="fas fa-chart-line"></i> Data Science & Machine Learning</h2>
+
+        <div class="certificates-grid">
+            <div class="certificate-item">
+                <img src="certificates/Python & Machine Learning/John Genga - Python.png" alt="Kaggle Python Certificate" class="certificate-image">
+                <div class="certificate-info">
+                    <h5>Python</h5>
+                    <p>Kaggle Certification</p>
+                </div>
+            </div>
+            <div class="certificate-item">
+                <img src="certificates/Python & Machine Learning/John Genga - Pandas.png" alt="Kaggle Pandas Certificate" class="certificate-image">
+                <div class="certificate-info">
+                    <h5>Pandas</h5>
+                    <p>Kaggle Certification</p>
+                </div>
+            </div>
+            <div class="certificate-item">
+                <img src="certificates/Python & Machine Learning/John Genga - Intro to Machine Learning.png" alt="Kaggle Intro to ML Certificate" class="certificate-image">
+                <div class="certificate-info">
+                    <h5>Intro to ML</h5>
+                    <p>Kaggle Certification</p>
+                </div>
+            </div>
+            <div class="certificate-item">
+                <img src="certificates/Python & Machine Learning/John Genga - Intermediate Machine Learning.png" alt="Kaggle Intermediate ML Certificate" class="certificate-image">
+                <div class="certificate-info">
+                    <h5>Intermediate ML</h5>
+                    <p>Kaggle Certification</p>
+                </div>
+            </div>
+            <div class="certificate-item">
+                <img src="certificates/Python & Machine Learning/John Genga - Time Series.png" alt="Kaggle Time Series Certificate" class="certificate-image">
+                <div class="certificate-info">
+                    <h5>Time Series</h5>
+                    <p>Kaggle Certification</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>John Genga &copy; 2024</p>
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> John Genga. Crafting resilient, data-driven supply chains.</p>
+            <div class="contact-info">
+                <a href="mailto:john.genga@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                <a href="tel:+254718215105"><i class="fas fa-phone"></i> Call</a>
+                <a href="https://linkedin.com/in/john-genga" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://johngenga.github.io/" target="_blank"><i class="fas fa-globe"></i> Portfolio</a>
+            </div>
+        </div>
     </footer>
+
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                if(targetId === '#') return;
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Sticky navigation highlight on scroll
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.quick-nav a');
+            let currentSection = '';
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                if (window.pageYOffset >= sectionTop) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + currentSection) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
