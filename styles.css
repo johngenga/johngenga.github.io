@@ -110,27 +110,33 @@ nav a.active::after {
 }
 
 /* ===== HERO SECTION ===== */
+/* ===== HERO SECTION ===== */
+/* ===== HERO SECTION ===== */
 .hero {
-    background: linear-gradient(135deg, rgba(44, 62, 80, 0.9) 0%, rgba(26, 37, 47, 0.9) 100%), url('images/work_samples/SC.jpg');
+    background: linear-gradient(135deg, rgba(44, 62, 80, 0.15) 0%, rgba(26, 37, 47, 0.2) 100%), url('images/work_samples/SC.jpg');
     background-size: cover;
     background-position: center;
-    color: var(--white);
     text-align: center;
     padding: 5rem 0;
     margin-bottom: 3rem;
 }
 
 .hero h2 {
+    color: #FFFFFF;
     font-size: 2.8rem;
     margin-bottom: 1rem;
     font-weight: 700;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.85);
+    border-bottom: none;
+    display: block;
 }
 
 .hero p {
+    color: #F5F5F5;
     font-size: 1.3rem;
     max-width: 700px;
     margin: 0 auto;
-    opacity: 0.9;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.75);
 }
 
 /* About Hero Variant */
